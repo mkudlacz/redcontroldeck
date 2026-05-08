@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redcontroldeck</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    :root {
+      --red: #c62828;
+      --black: #111;
+      --cream: #f4f1ea;
+    }
+
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--black);
+      font-family: "Arial Black", Impact, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .poster img {
+      max-width: 320px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 64px;
+      letter-spacing: 2px;
+    }
+
+    .logo span:first-child {
+      color: var(--red);
+    }
+
+    .projects {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+    }
+
+    .projects a {
+      font-size: 16px;
+      text-decoration: none;
+      color: var(--black);
+      border-bottom: 2px solid var(--black);
+      padding-bottom: 2px;
+      transition: all 0.2s ease;
+    }
+
+    .projects a:hover {
+      color: var(--red);
+      border-color: var(--red);
+    }
+
+    .tagline {
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    
+    <div class="poster">
+      <img src="poster.jpg" alt="Redcontroldeck Poster" />
+    </div>
+
+    <ul class="projects">
+      <li><a href="https://player.redcontroldeck.com">No Tape Left Behind Player</a></li>
+    </ul>
+
+    <div class="tagline">
+      an internet archive player pre-wired for the aadam jacobs' collection
+    </div>
+
+  </div>
+</body>
+</html>
