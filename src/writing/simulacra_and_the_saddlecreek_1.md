@@ -1,7 +1,7 @@
 ---
 title: Sometimes Style Just Blurs the Line.
 type: essay
-series: The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek
+series: "The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek"
 order: 1
 hero: /assets/ssaddlecreek_cover.jpg
 ---
