@@ -2,7 +2,7 @@
 
 ## Overview
 
-The site is built with [Eleventy (11ty)](https://www.11ty.dev/), a static site generator. You write content as Markdown files, push to GitHub, and Cloudflare Pages builds and deploys automatically. No CMS, no dashboard — just files and git.
+The site is built with [Eleventy (11ty)](https://www.11ty.dev/). You write posts as Markdown files directly in the repo, push to GitHub via the Obsidian Git plugin, and Cloudflare Pages builds and deploys automatically. No CMS, no dashboard.
 
 ---
 
@@ -19,23 +19,16 @@ The site is built with [Eleventy (11ty)](https://www.11ty.dev/), a static site g
 
 ---
 
-## Project structure
+## Where you write
 
+**Write directly in `src/writing/` inside the repo.** This folder is your Obsidian vault's writing home — no iCloud vault, no copying files between folders.
+
+The repo vault is located at:
 ```
-src/
-  _data/
-    projects.json       ← project list (edit to add/remove projects)
-  _includes/
-    base.njk            ← shared layout (nav, head)
-    post.njk            ← writing post layout
-  assets/               ← images, CSS, favicon
-  writing/
-    writing.json        ← default layout for all posts (don't touch)
-    your-post.md        ← your content goes here
-  about/index.njk       ← About page
-  projects/index.njk    ← Projects page
-  index.njk             ← Home page
+/Users/mkudlacz/Projects/Sites/redcontroldeck/
 ```
+
+Posts with `draft: true` in their frontmatter are invisible to the site — they won't appear on any page and won't be built. This means you can safely write and save unfinished work in `src/writing/` without it going live. When you're ready to publish, remove the `draft` line and sync.
 
 ---
 
@@ -55,22 +48,26 @@ title: "Your Post Title"
 date: 2026-05-12
 type: post
 hero: /assets/your-image.jpg
+draft: true
 ---
 
 Your content here. Write in standard Markdown.
 ```
+
+Start every new post with `draft: true`. Remove that line when you're ready to publish.
 
 | Field | Required | Notes |
 |---|---|---|
 | `title` | Yes | Displayed as the post headline |
 | `date` | For posts | Format: YYYY-MM-DD |
 | `type` | Yes | `post` (dated) or `essay` (evergreen, no date shown) |
-| `hero` | No | Path to image in `src/assets/`, or an external URL. Shown at top of post and as thumbnail on home page. |
+| `hero` | No | Path to image in `src/assets/`, shown at top of post and as row thumbnail on home page |
+| `draft` | No | Set to `true` to hide from the site. Remove the line entirely to publish. |
 
 ### Post vs Essay
 
-- **post** — has a date, appears in the Posts section of the Writing index, date shown on home page row
-- **essay** — no date, appears in the Essays section, labeled "Essay" on home page
+- **post** — has a date, shown in the Posts section of Writing, date shown on home page
+- **essay** — no date, shown in the Essays section, labeled "Essay" on home page
 
 ---
 
@@ -79,37 +76,48 @@ Your content here. Write in standard Markdown.
 1. Drop the image file into `src/assets/`
 2. Reference it in frontmatter as `/assets/filename.jpg`
 
-Supported formats: JPG, PNG, SVG, WebP.
-
 ---
 
-## Writing in Obsidian
+## Obsidian setup (macOS)
 
-If your Obsidian vault is separate from the repo, write your post there and copy the `.md` file into `src/writing/` when ready to publish. Make sure the frontmatter block is at the top.
-
-Alternatively, point an Obsidian folder directly at `src/writing/` so saves go straight to the repo.
-
----
-
-## Publishing (the full loop)
-
-```bash
-# 1. Write your post, save it to src/writing/your-post.md
-# 2. Add any images to src/assets/
-
-# 3. Commit and push
-git add src/
-git commit -m "Add post: your post title"
-git push
+Your Obsidian vault for this site is the repo root:
+```
+/Users/mkudlacz/Projects/Sites/redcontroldeck/
 ```
 
-Cloudflare Pages detects the push, runs `npm run build`, and deploys `_site/` to redcontroldeck.com. Usually live within 30–60 seconds.
+The **Obsidian Git** plugin (by Vinzent Schneider) is installed. It gives you git push/pull from inside Obsidian without opening a terminal.
+
+**To navigate to your writing folder quickly:** the `src/writing/` folder is bookmarked in the Obsidian sidebar.
+
+---
+
+## Publishing workflow (step by step)
+
+### Starting a new draft
+
+1. In Obsidian, open `src/writing/`
+2. Create a new note — name it with hyphens, no spaces (e.g. `my-post-title.md`)
+3. Add the frontmatter block at the top with `draft: true`
+4. Write your post
+
+### Publishing when ready
+
+1. Remove `draft: true` from the frontmatter (or delete the line entirely)
+2. Make sure `date` is set if it's a post
+3. Press `Cmd+P` → type **"Git: Commit-and-sync"** → Enter
+4. Cloudflare builds and deploys — live within ~60 seconds
+
+That's it. No terminal, no extra steps.
+
+### Saving work-in-progress without publishing
+
+Just leave `draft: true` in the frontmatter and use **"Git: Commit-and-sync"** whenever you want to save. The file will be pushed to GitHub but the site won't show it.
 
 ---
 
 ## Adding or editing a project
 
-Edit `src/_data/projects.json`:
+Edit `src/_data/projects.json` directly in Obsidian or VS Code:
 
 ```json
 [
@@ -139,13 +147,13 @@ Edit `src/_data/projects.json`:
 npm run serve -- --port 8090
 ```
 
-Open `http://localhost:8090`. The server live-reloads on file changes.
+Open `http://localhost:8090`. Live-reloads on file changes.
 
 ---
 
 ## Cloudflare Pages build settings
 
-These are set once in the Cloudflare Pages dashboard (Settings → Builds & deployments):
+Set once in the Cloudflare Pages dashboard (Settings → Builds & deployments):
 
 | Setting | Value |
 |---|---|
@@ -157,7 +165,7 @@ These are set once in the Cloudflare Pages dashboard (Settings → Builds & depl
 
 ## What you never need to touch
 
-- `src/_includes/` — layout templates (only edit if changing site design)
+- `src/_includes/` — layout templates
 - `src/writing/writing.json` — sets default layout for all posts
-- `package.json` / `package-lock.json` — dependency files
-- `_site/` — generated output, not committed to git
+- `package.json` / `package-lock.json` — dependencies
+- `_site/` — generated output, not committed

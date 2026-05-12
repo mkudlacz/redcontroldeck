@@ -12,18 +12,20 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 
   eleventyConfig.addCollection("writing", (api) =>
-    api.getFilteredByGlob("src/writing/*.md").sort((a, b) => b.date - a.date)
+    api.getFilteredByGlob("src/writing/*.md")
+      .filter((p) => !p.data.draft)
+      .sort((a, b) => b.date - a.date)
   );
 
   eleventyConfig.addCollection("posts", (api) =>
     api.getFilteredByGlob("src/writing/*.md")
-      .filter((p) => p.data.type === "post")
+      .filter((p) => !p.data.draft && p.data.type === "post")
       .sort((a, b) => b.date - a.date)
   );
 
   eleventyConfig.addCollection("essays", (api) =>
     api.getFilteredByGlob("src/writing/*.md")
-      .filter((p) => p.data.type === "essay")
+      .filter((p) => !p.data.draft && p.data.type === "essay")
       .sort((a, b) => (b.data.title > a.data.title ? 1 : -1))
   );
 
