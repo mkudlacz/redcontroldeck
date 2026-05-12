@@ -26,6 +26,9 @@ pageTitle: Writing — Redcontroldeck
     {% for essay in collections.essays %}
     <div class="writing-entry">
       <a href="{{ essay.url }}">{{ essay.data.title }}</a>
+      {% if essay.data.series %}
+      <div class="entry-series">{{ essay.data.series }}</div>
+      {% endif %}
     </div>
     {% endfor %}
   </div>

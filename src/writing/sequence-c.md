@@ -1,6 +1,7 @@
 ---
 title: "Three Sentences: Version C"
 type: essay
+series: "Three Sentences"
 hero: https://images.craigslist.org/00u0u_k7ed5zJAV4c_06W03g_600x450.jpg
 ---
 

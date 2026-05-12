@@ -7,6 +7,9 @@ layout: base.njk
     {% if hero %}
     <img src="{{ hero }}" alt="" class="post-hero" />
     {% endif %}
+    {% if series %}
+    <div class="post-series">{{ series }}</div>
+    {% endif %}
     <h1 class="post-title">{{ title }}</h1>
     {% if type == "post" %}
     <div class="post-meta">{{ date | formatDate }}</div>
