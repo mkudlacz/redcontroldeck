@@ -276,12 +276,12 @@ body {
 }
 
 .post-hero {
-  width: 100%;
+  max-width: 100%;
+  max-height: 520px;
+  width: auto;
   height: auto;
   display: block;
   margin-bottom: 32px;
-  max-height: 420px;
-  object-fit: cover;
 }
 
 .post-series {
@@ -320,6 +320,41 @@ body {
 
 .post-body p {
   margin: 0 0 1.5em;
+}
+
+/* ── Series nav ── */
+
+.series-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(17, 17, 17, 0.12);
+  gap: 24px;
+}
+
+.series-prev,
+.series-next {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--black);
+  opacity: 0.5;
+  max-width: 45%;
+  transition: opacity 0.15s, color 0.15s;
+}
+
+.series-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.series-prev:hover,
+.series-next:hover {
+  opacity: 1;
+  color: var(--red);
 }
 
 /* ── Projects page ── */

@@ -18,4 +18,19 @@ layout: base.njk
   <div class="post-body">
     {{ content | safe }}
   </div>
+
+  {% if series %}
+  {% set prevChapter = collections.essays | prevInSeries(series, page.url) %}
+  {% set nextChapter = collections.essays | nextInSeries(series, page.url) %}
+  {% if prevChapter or nextChapter %}
+  <nav class="series-nav">
+    {% if prevChapter %}
+    <a href="{{ prevChapter.url }}" class="series-prev">← {{ prevChapter.data.title }}</a>
+    {% endif %}
+    {% if nextChapter %}
+    <a href="{{ nextChapter.url }}" class="series-next">{{ nextChapter.data.title }} →</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+  {% endif %}
 </div>

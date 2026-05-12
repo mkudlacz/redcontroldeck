@@ -11,6 +11,22 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 
+  eleventyConfig.addFilter("prevInSeries", (collection, seriesName, currentUrl) => {
+    const items = collection
+      .filter((p) => p.data.series === seriesName && !p.data.draft)
+      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+    const idx = items.findIndex((p) => p.url === currentUrl);
+    return idx > 0 ? items[idx - 1] : null;
+  });
+
+  eleventyConfig.addFilter("nextInSeries", (collection, seriesName, currentUrl) => {
+    const items = collection
+      .filter((p) => p.data.series === seriesName && !p.data.draft)
+      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+    const idx = items.findIndex((p) => p.url === currentUrl);
+    return idx !== -1 && idx < items.length - 1 ? items[idx + 1] : null;
+  });
+
   eleventyConfig.addCollection("writing", (api) =>
     api.getFilteredByGlob("src/writing/*.md")
       .filter((p) => !p.data.draft)

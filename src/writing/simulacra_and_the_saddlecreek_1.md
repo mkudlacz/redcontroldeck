@@ -1,7 +1,8 @@
 ---
 title: Sometimes Style Just Blurs the Line.
 type: essay
-series: From the Archive
+series: The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek
+order: 1
 hero: /assets/ssaddlecreek_cover.jpg
 ---
 A response to D. Hebdige's *Subculture*, selections from *The Subcultures Reader*
@@ -27,5 +28,3 @@ Of course, to help further our definition, we must conclude with a more general 
 What's even more, their language also leaves little to be uncovered. Although Afro-American slang can occasionally find its way into expression, perhaps as an extension of Hebdige's sympathetic, white liberal tradition, its use is rather tongue and cheek, dismissed with a chuckle just as easily as the terminology of independent rock doctrine. These fables are somewhat embraced on some level, with rap occupying a position of respect and the corporate machine a place of infamy, but rendered meaningless on the surface of mere discourse. Empty signs for an empty bunch. Even within their own element, during a show, we can see little need for the teasing out of meaning. Bands have shed the "rockstar" approach to performance, even the elements of spectacle inherited from punk, opting instead for a living room-like stage presence, suggesting an indifference which has lost all pretensions of coffeehouse apathy and come instead to mean little more than a means to an end, the presentation of music. Perhaps there is a bit more to this however. Taking a glance at the audience, which is a bit more engaged, it might be that the performers themselves are mimicking the art world in all of its professionalism, giving up stage-diving so as to make themselves more legitimate. The listeners, who have done away with the antics of Fonarow's Zone 1, in favor of a more "civilized" atmosphere, are wholly serious about the activities on stage, unwilling to talk but between sets lest they should interrupt the text unfolding on-stage, as reserved as an audience at the opera (Fonarow, pg. 361). 
 
 Whatever the case, in the end, we find ourselves with little material to decode — no safety pins or pogo-ing; what would appear to be, good, clean fun to "the straights. " What we are left with is the (un)style of dirty khakis and pea coats, vaguely reminiscent of the proletariat, disguises for a cult devoid of meaning, stewing in the dominant and subcultural signs, all the while hinting at a return to the modernist project. The joke is not, as in previous subcultures, on the straights, or the squares, but rather on the entire social institution which determines their respective positions, as well as those of the actors themselves.
-
-*from The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek (Chapter 1)*
