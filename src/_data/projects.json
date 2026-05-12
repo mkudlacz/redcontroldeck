@@ -1,0 +1,16 @@
+[
+  {
+    "name": "No Tape Left Behind Player",
+    "url": "https://player.redcontroldeck.com",
+    "description": "An internet archive player pre-wired for the Aadam Jacobs collection.",
+    "status": "active",
+    "image": "/assets/bigdials.jpg"
+  },
+  {
+    "name": "Field Documentation System",
+    "url": "#",
+    "description": "A system for capturing and archiving live music documentation.",
+    "status": "in progress",
+    "image": "/assets/halli_s41_sm.jpg"
+  }
+]

@@ -1,0 +1,62 @@
+---
+layout: base.njk
+pageTitle: RCD HOME
+---
+
+<div class="home-hero">
+  <div class="poster">
+    <img src="/assets/poster.jpg" alt="Redcontroldeck" />
+  </div>
+  <p class="home-intro">
+    A black box of ideas and artifacts for the new age.
+  </p>
+</div>
+
+{% if collections.writing.length > 0 %}
+<section class="home-section">
+  <div class="container">
+    <h2>Recent Writing</h2>
+    <ul class="home-rows">
+      {% for post in collections.writing | limit(3) %}
+      <li class="home-row">
+        {% if post.data.hero %}
+        <img class="row-thumb" src="{{ post.data.hero }}" alt="" />
+        {% endif %}
+        <div class="row-text">
+          <div class="row-title"><a href="{{ post.url }}">{{ post.data.title }}</a></div>
+          {% if post.data.type == "post" %}
+          <div class="row-meta">{{ post.date | formatDate }}</div>
+          {% else %}
+          <div class="row-meta">Essay</div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="/writing/" class="see-all">All writing →</a>
+  </div>
+</section>
+{% endif %}
+
+{% if projects.length > 0 %}
+<section class="home-section">
+  <div class="container">
+    <h2>Projects</h2>
+    <ul class="home-rows">
+      {% for project in projects %}
+      <li class="home-row">
+        {% if project.image %}
+        <img class="row-thumb" src="{{ project.image }}" alt="" />
+        {% endif %}
+        <div class="row-text">
+          <div class="row-title">
+            <a href="{{ project.url }}"{% if project.url != "#" %} target="_blank" rel="noopener"{% endif %}>{{ project.name }}</a>
+          </div>
+          <div class="row-meta">{{ project.description }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endif %}

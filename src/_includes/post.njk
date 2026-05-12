@@ -1,0 +1,18 @@
+---
+layout: base.njk
+---
+<div class="post container">
+  <a href="/writing/" class="back-link">← Writing</a>
+  <header class="post-header">
+    {% if hero %}
+    <img src="{{ hero }}" alt="" class="post-hero" />
+    {% endif %}
+    <h1 class="post-title">{{ title }}</h1>
+    {% if type == "post" %}
+    <div class="post-meta">{{ date | formatDate }}</div>
+    {% endif %}
+  </header>
+  <div class="post-body">
+    {{ content | safe }}
+  </div>
+</div>
