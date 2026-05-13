@@ -170,7 +170,8 @@ body {
 /* ── Page header (inner pages) ── */
 
 .page-header {
-  padding: 96px 0 72px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .page-header h1 {
