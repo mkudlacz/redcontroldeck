@@ -1,5 +1,5 @@
 ---
-title: "The Underachiever's Prologue"
+title: "Prologue"
 date: 2026-05-12
 type: essay
 series: "The Underachiever's March and Fight Song: Simulacra and the Saddlecreek"
