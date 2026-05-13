@@ -1,5 +1,5 @@
 ---
-title: Disruption: the music just leads to aggravation
+title: "Disruption: the music just leads to aggravation"
 type: essay
 series: "The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek"
 order: 4
