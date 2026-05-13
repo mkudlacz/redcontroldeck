@@ -1,6 +1,6 @@
 ---
 title: "Disruption: the music just leads to aggravation"
-youtube: https://youtu.be/KvwgOyyx7Yg?si=S6s_4ySdEcoSAPJp
+youtube: https://youtu.be/KvwgOyyx7Yg?si=gf9i-JF8SP30sNks&t=497
 date: 1998-04-17
 type: essay
 series: "The Underachiever's March and Fight Song: Simulacra and the Saddlecreek"
