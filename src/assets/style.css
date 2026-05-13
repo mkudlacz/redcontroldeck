@@ -322,6 +322,14 @@ body {
   margin: 0 0 1.5em;
 }
 
+.post-body blockquote {
+  margin: 0 0 1.5em;
+  padding-left: 24px;
+  border-left: 3px solid var(--red);
+  font-style: italic;
+  opacity: 0.8;
+}
+
 /* ── Series nav ── */
 
 .series-nav {
