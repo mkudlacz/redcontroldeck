@@ -30,23 +30,44 @@ pageTitle: RCD HOME
 </section>
 {% endif %}
 
-{% if collections.writing.length > 0 %}
+{% set recentItems = collections.writing | recentWriting %}
+{% set archivedItems = collections.writing | archivedWriting %}
+
+{% if recentItems.length > 0 %}
 <section class="home-section">
   <div class="container">
     <h2>Recent Writing</h2>
     <ul class="home-rows">
-      {% for post in collections.writing | limit(3) %}
+      {% for post in recentItems | limit(3) %}
       <li class="home-row">
         {% if post.data.hero %}
         <img class="row-thumb" src="{{ post.data.hero }}" alt="" />
         {% endif %}
         <div class="row-text">
           <div class="row-title"><a href="{{ post.url }}">{{ post.data.title }}</a></div>
-          {% if post.data.type == "post" %}
           <div class="row-meta">{{ post.date | formatDate }}</div>
-          {% else %}
-          <div class="row-meta">Essay</div>
-          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <a href="/writing/" class="see-all">All writing →</a>
+  </div>
+</section>
+{% endif %}
+
+{% if archivedItems.length > 0 %}
+<section class="home-section">
+  <div class="container">
+    <h2>Archived Writing</h2>
+    <ul class="home-rows">
+      {% for post in archivedItems | limit(3) %}
+      <li class="home-row">
+        {% if post.data.hero %}
+        <img class="row-thumb" src="{{ post.data.hero }}" alt="" />
+        {% endif %}
+        <div class="row-text">
+          <div class="row-title"><a href="{{ post.url }}">{{ post.data.title }}</a></div>
+          <div class="row-meta">{{ post.date | formatDate }}</div>
         </div>
       </li>
       {% endfor %}

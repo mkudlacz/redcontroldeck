@@ -17,6 +17,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 
+  eleventyConfig.addFilter("recentWriting", (arr) => {
+    const cutoff = new Date();
+    cutoff.setFullYear(cutoff.getFullYear() - 5);
+    return arr.filter((p) => p.date >= cutoff);
+  });
+
+  eleventyConfig.addFilter("archivedWriting", (arr) => {
+    const cutoff = new Date();
+    cutoff.setFullYear(cutoff.getFullYear() - 5);
+    return arr.filter((p) => p.date < cutoff);
+  });
+
   eleventyConfig.addFilter("prevInSeries", (collection, seriesName, currentUrl) => {
     const items = collection
       .filter((p) => p.data.series === seriesName && !p.data.draft)
