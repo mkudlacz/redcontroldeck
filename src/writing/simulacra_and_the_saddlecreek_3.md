@@ -1,5 +1,5 @@
 ---
-title: Science has no soul
+title: [Science has no soul](https://youtu.be/N8yDslaBUIY?si=89nUkDFpswB7dCYz)
 date: 1998-03-31
 type: essay
 series: "The Underachiever's March and Fight Song: Simulacra and the Saddlecreek"
