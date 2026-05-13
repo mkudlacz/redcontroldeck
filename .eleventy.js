@@ -1,4 +1,10 @@
+const markdownIt = require("markdown-it");
+const markdownItFootnote = require("markdown-it-footnote");
+
 module.exports = function (eleventyConfig) {
+  const md = markdownIt({ html: true, typographer: true }).use(markdownItFootnote);
+  eleventyConfig.setLibrary("md", md);
+
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
 
