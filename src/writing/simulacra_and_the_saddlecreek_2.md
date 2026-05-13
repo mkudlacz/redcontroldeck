@@ -3,7 +3,7 @@ title: The 13-Point Plan to Destroy Americanism
 date: 1998-03-17
 type: essay
 series: "The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek"
-order: 2
+order: 3
 hero: /assets/ssaddlecreek_tile_red.jpg
 ---
 A response to A. Gramsci's *Selections from the Prison Notebooks*

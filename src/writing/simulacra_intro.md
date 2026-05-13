@@ -1,10 +1,10 @@
 ---
-title: "The Underachiever's March and Fight Song: An Introduction"
+title: "And Underachiever's Prologue"
 date: 2026-05-12
 type: essay
 series: "The Underachiever's March and Fight Song: Simulacra and the Saddlecreek"
 hero: /assets/ssaddlecreek_cover.jpg
-order: 0
+order: 1
 ---
 
 These are four papers written in the spring of 1998 for an independent study at the University of Nebraska-Lincoln, supervised by Dr. Nick Spencer in the English Department. The goal of the course was to apply the methods of cultural studies — then in full bloom as an academic discipline — to a local subject. That subject was the independent music scene rooted in Lincoln and Omaha, Nebraska, organized loosely around a small record label called Saddlecreek.

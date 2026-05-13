@@ -3,7 +3,7 @@ title: Science has no soul
 date: 1998-03-31
 type: essay
 series: "The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek"
-order: 3
+order: 4
 hero: /assets/ssaddlecreek_tile_yellow.jpg
 ---
 A response to M. de Certeau's *The Practice of Everyday Life,* and R. Barthes' *Mythologies* 

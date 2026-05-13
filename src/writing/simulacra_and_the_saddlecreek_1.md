@@ -3,7 +3,7 @@ title: Sometimes Style Just Blurs the Line
 date: 1998-02-15
 type: essay
 series: "The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek"
-order: 1
+order: 2
 hero: /assets/ssaddlecreek_tile_cyan.jpg
 ---
 A response to D. Hebdige's *Subculture*, selections from *The Subcultures Reader*

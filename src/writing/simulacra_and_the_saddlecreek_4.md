@@ -3,8 +3,8 @@ title: "Disruption: the music just leads to aggravation"
 date: 1998-04-17
 type: essay
 series: "The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek"
-order: 4
-hero: /assets/ssaddlecreek_tile.jpg
+order: 5
+hero: /assets/rcd_pub.jpg
 ---
 A response to various readings in cultural studies 
 
