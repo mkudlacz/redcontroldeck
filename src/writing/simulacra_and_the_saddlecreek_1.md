@@ -1,5 +1,6 @@
 ---
-title: [Sometimes Style Just Blurs the Line](https://youtu.be/8fEzrnKCHeM?si=0_-VKb8R4uK6bcAg)
+title: Sometimes Style Just Blurs the Line
+youtube: https://youtu.be/8fEzrnKCHeM?si=0_-VKb8R4uK6bcAg
 date: 1998-02-15
 type: essay
 series: "The Underachiever's March and Fight Song: Simulacra and the Saddlecreek"

@@ -10,7 +10,7 @@ layout: base.njk
     {% if series %}
     <div class="post-series">{{ series }}</div>
     {% endif %}
-    <h1 class="post-title">{{ title }}</h1>
+    <h1 class="post-title">{{ title }}{% if youtube %}<a href="{{ youtube }}" class="post-title-link" target="_blank" rel="noopener" aria-label="Listen on YouTube">↗</a>{% endif %}</h1>
     {% if date %}
     <div class="post-meta">{{ date | formatDate }}</div>
     {% endif %}

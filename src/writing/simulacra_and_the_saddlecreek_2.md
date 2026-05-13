@@ -1,5 +1,6 @@
 ---
-title: [The 13-Point Plan to Destroy Americanism](https://youtu.be/HagU6EX8Az4?si=WESY925ru_ol2y6C)
+title: The 13-Point Plan to Destroy Americanism
+youtube: https://youtu.be/HagU6EX8Az4?si=WESY925ru_ol2y6C
 date: 1998-03-17
 type: essay
 series: "The Underachiever's March and Fight Song: Simulacra and the Saddlecreek"
