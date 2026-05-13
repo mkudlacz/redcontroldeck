@@ -11,7 +11,7 @@ layout: base.njk
     <div class="post-series">{{ series }}</div>
     {% endif %}
     <h1 class="post-title">{{ title }}</h1>
-    {% if type == "post" %}
+    {% if date %}
     <div class="post-meta">{{ date | formatDate }}</div>
     {% endif %}
   </header>

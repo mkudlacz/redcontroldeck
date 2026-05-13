@@ -29,6 +29,9 @@ pageTitle: Writing — Redcontroldeck
       {% if essay.data.series %}
       <div class="entry-series">{{ essay.data.series }}</div>
       {% endif %}
+      {% if essay.data.date %}
+      <div class="entry-meta">{{ essay.date | formatDate }}</div>
+      {% endif %}
     </div>
     {% endfor %}
   </div>

@@ -136,14 +136,11 @@ body {
   font-size: 16px;
   text-decoration: none;
   color: var(--black);
-  border-bottom: 2px solid var(--black);
-  padding-bottom: 1px;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s;
 }
 
 .home-row .row-title a:hover {
   color: var(--red);
-  border-color: var(--red);
 }
 
 .home-row .row-meta {
@@ -216,14 +213,11 @@ body {
   font-size: 22px;
   text-decoration: none;
   color: var(--black);
-  border-bottom: 1px solid rgba(17, 17, 17, 0.2);
-  padding-bottom: 1px;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s;
 }
 
 .writing-entry a:hover {
   color: var(--red);
-  border-color: var(--red);
 }
 
 .writing-entry .entry-series {
@@ -322,6 +316,17 @@ body {
   margin: 0 0 1.5em;
 }
 
+.post-body a {
+  color: var(--black);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s;
+}
+
+.post-body a:hover {
+  color: var(--red);
+}
+
 .post-body blockquote {
   margin: 0 0 1.5em;
   padding-left: 24px;
@@ -390,14 +395,11 @@ body {
 .project-card .project-title a {
   text-decoration: none;
   color: var(--black);
-  border-bottom: 2px solid var(--black);
-  padding-bottom: 1px;
-  transition: color 0.15s, border-color 0.15s;
+  transition: color 0.15s;
 }
 
 .project-card .project-title a:hover {
   color: var(--red);
-  border-color: var(--red);
 }
 
 .project-card .project-description {

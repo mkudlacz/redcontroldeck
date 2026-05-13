@@ -1,5 +1,6 @@
 ---
 title: Science has no soul
+date: 1998-03-31
 type: essay
 series: "The Underachiever’s March and Fight Song: Simulacra and the Saddlecreek"
 order: 3

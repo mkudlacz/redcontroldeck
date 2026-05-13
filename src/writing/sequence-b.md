@@ -3,6 +3,7 @@ title: "Three Sentences: Version B"
 date: 2026-04-22
 type: post
 hero: https://www.n4rfc.com/wp-content/uploads/2025/04/Swan_270_B_Cygnet.jpg
+draft: true
 ---
 
 The stray cat is without a home.
