@@ -27,4 +27,4 @@ And, perhaps most excitingly, we can now revisit with them, with all the perspec
 
 Perhaps this is all just the over-enthusiastic ramblings of a former history teacher and aging punk, but the potential for deep exploration and meaning-making proffered by Aadam's collection feels like something precious – and demanding of some kind of urgency. Whereas most of the internet is awash in high-engagement, low-context (and otherwise disposable) distractions, Aadam's collection is very nearly the opposite. It is not a carousel ride past something political, something comical, some kind of advertising and then your work-friend's reposts. It is an integrated, parasocial experience, a vicarious trip into the daily life of an actual person, the places he frequented and the performances he gave his time and attention to.
 
-I'd like to think that means quite a lot – *that is, if one is willing to take the time to listen*.
+I'd like to think that means quite a lot – *that is, if one is only willing to take the time to listen*.
