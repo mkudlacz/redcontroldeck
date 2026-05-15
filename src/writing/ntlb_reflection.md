@@ -9,7 +9,7 @@ In early April, a college friend – and my sometime-time personal musical sherp
 
 Thus began an obsession that has consumed my days (and nights) for the last five weeks. My early fascination with the archive ultimately led to the development of a [custom web app](https://player.redcontroldeck.com/) for exploring the collection – and, in turn, hundreds of  hours of streaming. 
 
-Much has been written about [Aadam's story] (https://aadamjacobscollection.org/2026/01/17/the-aadam-jacobs-origin-story/) that I won't recapitulate here. Rather, I wanted to take a moment in this venue to describe what the collection has meant to *me.*
+Much has been written about [Aadam's story](https://aadamjacobscollection.org/2026/01/17/the-aadam-jacobs-origin-story/) that I won't recapitulate here. Rather, I wanted to take a moment in this venue to describe what the collection has meant to *me.*
 
 As it happens, neither my friend nor I are actually what you might call "live music guys." While he and I share many similarities – and, critically, overlapping musical tastes – with Aadam, we both prefer the refined product of a studio-produced record to that of a live performance. For my money, I'd rather listen to what the artist has endorsed as the *best possible iteration of their songs* rather than whatever they're able to muster on-stage in some club with limited or variable resources. Call it snobbery or a kind of completism, but it is nevertheless a preference borne of reverence for the artist and the art itself. 
 
