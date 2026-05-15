@@ -7,7 +7,7 @@ draft: false
 ---
 In early April, a college friend – and my sometime-time personal musical sherpa – sent me a cryptic, two-line message which contained a only link to the [Aadam Jacobs collection on the Internet Archive](archive.org/details/aadamjacobs) and the postscript "You're welcome, and I'm sorry." 
 
-Thus began an obsession that has consumed my days (and nights) for the last five weeks. My early fascination with the archive ultimately led to the development of a [custom web app] (https://player.redcontroldeck.com/) for exploring the collection – and hundreds of hours of streaming. 
+Thus began an obsession that has consumed my days (and nights) for the last five weeks. My early fascination with the archive ultimately led to the development of a [custom web app](https://player.redcontroldeck.com/) for exploring the collection – and hundreds of hours of streaming. 
 
 Much has been written about [Aadam's story] (https://aadamjacobscollection.org/2026/01/17/the-aadam-jacobs-origin-story/) that I won't recapitulate here. Rather, I wanted to take a moment in this venue to describe what the collection has meant to *me.*
 
