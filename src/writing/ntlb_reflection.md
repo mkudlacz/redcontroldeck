@@ -1,5 +1,5 @@
 ---
-title: Reflections after Spending a Month with the 'Chicago Tape Guy'
+title: Reflections After a Month with the 'Chicago Tape Guy'
 date: 2026-05-15
 type: essay
 hero: https://aadamjacobscollection.org/wp-content/uploads/2025/11/Box-1-Nov-2024.jpg
