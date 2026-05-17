@@ -5,7 +5,7 @@ type: essay
 hero: https://aadamjacobscollection.org/wp-content/uploads/2025/11/Box-1-Nov-2024.jpg
 draft: false
 ---
-In early April, a college friend – and my sometime-time personal musical sherpa – sent me a cryptic, two-line message which contained just the link to the [Aadam Jacobs collection on the Internet Archive](archive.org/details/aadamjacobs) and the postscript "You're welcome, and I'm sorry." 
+In early April, a college friend – and my sometime-time personal musical sherpa – sent me a cryptic, two-line message which contained just the link to the [Aadam Jacobs collection on the Internet Archive](http://archive.org/details/aadamjacobs) and the postscript "You're welcome, and I'm sorry." 
 
 Thus began an obsession that has consumed my days (and nights) for the last five weeks. My early fascination with the archive ultimately led to the development of a [custom web app](https://player.redcontroldeck.com/) for exploring the collection – and, in turn, hundreds of hours of streaming. 
 
