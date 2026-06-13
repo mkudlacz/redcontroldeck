@@ -7,10 +7,10 @@
     "image": "/assets/ntlb-cover.jpg"
   },
   {
-    "name": "Field Documentation System",
-    "url": "#",
-    "description": "A system for capturing and archiving live music documentation.",
-    "status": "in progress",
-    "image": "/assets/halli_s41_sm.jpg"
+    "name": "Left of the Dial",
+    "url": "https://tuner.redcontroldeck.com",
+    "description": "Stream ~86 verified US college, public, and freeform radio stations. No accounts, no build step.",
+    "status": "active",
+    "image": "/assets/lotd-cover.jpg"
   }
 ]
